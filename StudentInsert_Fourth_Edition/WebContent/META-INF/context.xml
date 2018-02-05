@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/JSP_Test2">
+    <Resource name="jdbc/batch" 
+      auth="Container" type="javax.sql.DataSource"
+      maxActive="100" maxIdle="30" maxWait="10000" username="root" 
+      password="shen" driverClassName="org.mariadb.jdbc.Driver"
+      url="jdbc:mariadb://localhost:3306/studentinsert"/> 
+      
+      <Resource name="jdbc/test" 
+      auth="Container" type="javax.sql.DataSource"
+      maxActive="100" maxIdle="30" maxWait="10000" username="test" 
+      password="123" driverClassName="oracle.jdbc.driver.OracleDriver"
+      url="jdbc:oracle:thin:@localhost:1521:xe"/>       
+</Context>
